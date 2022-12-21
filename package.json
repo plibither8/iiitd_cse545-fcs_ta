@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@google-cloud/local-auth": "^2.1.1",
+    "alchemy-sdk": "^2.2.4",
     "googleapis": "^109.0.1"
   }
 }
