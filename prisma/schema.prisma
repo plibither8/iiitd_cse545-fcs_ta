@@ -1,0 +1,24 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Marks {
+  id          Int     @id @default(autoincrement())
+  email       String  @unique
+  assignment1 Decimal @default(0)
+  assignment2 Decimal @default(0)
+  quizzes     Decimal @default(0)
+  midsem      Decimal @default(0)
+  endsem      Decimal @default(0)
+  october     Decimal @default(0)
+  november    Decimal @default(0)
+  testing     Decimal @default(0)
+}

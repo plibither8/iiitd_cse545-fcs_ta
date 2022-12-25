@@ -5,6 +5,7 @@ credentials.json
 groups-and-forms.json
 *.csv
 assets
+*.db
 
 # Logs
 

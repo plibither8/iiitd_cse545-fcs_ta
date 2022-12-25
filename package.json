@@ -17,6 +17,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "nodemon": "^2.0.20",
     "prettier": "^2.8.0",
+    "prisma": "^4.8.0",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.1.0",
     "tsconfig-replace-paths": "^0.0.11",
@@ -24,6 +25,7 @@
   },
   "dependencies": {
     "@google-cloud/local-auth": "^2.1.1",
+    "@prisma/client": "^4.8.0",
     "alchemy-sdk": "^2.2.4",
     "googleapis": "^109.0.1"
   }

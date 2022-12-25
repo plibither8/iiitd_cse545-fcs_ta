@@ -70,6 +70,8 @@ const getNFTInfo = async (nftDetails) => {
       .map((cid) => [cid, cid?.match(pattern)?.[0]])
       .flat()
       .filter(Boolean);
+
+    console.log(possibleCids);
     const imageCid =
       metadata.tokenUri.raw.match(pattern)?.[0] ?? metadata.tokenUri.raw;
 
